@@ -1,0 +1,44 @@
+.focus-mode-active #content {
+  margin-left: 0 !important;
+}
+
+.focus-mode-active #masthead-container {
+  position: relative !important;
+  margin-bottom: 20px;
+  display: block !important;
+}
+
+.focus-mode-active ytd-rich-grid-renderer,
+.focus-mode-active ytd-shelf-renderer,
+.focus-mode-active ytd-rich-grid-row,
+.focus-mode-active ytd-rich-section-renderer,
+.focus-mode-active ytd-rich-shelf-renderer {
+  display: none !important;
+}
+
+.focus-mode-active ytd-watch-next-secondary-results-renderer,
+.focus-mode-active #related {
+  display: none !important;
+}
+
+.focus-mode-active #center {
+  display: flex !important;
+  justify-content: center !important;
+  width: 100% !important;
+}
+
+.focus-mode-active #search-form {
+  width: 50% !important;
+}
+
+.focus-mode-active ytd-reel-shelf-renderer,
+.focus-mode-active ytd-shorts,
+.focus-mode-active [is-shorts],
+.focus-mode-active ytd-mini-guide-entry-renderer[aria-label="Shorts"],
+.focus-mode-active ytd-guide-entry-renderer[title="Shorts"] {
+  display: none !important;
+}
+
+.focus-mode-active a#endpoint[title="Shorts"] {
+  display: none !important;
+}
